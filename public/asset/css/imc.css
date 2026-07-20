@@ -1,0 +1,159 @@
+.imc-display-box {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.imc-number {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--text-main);
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+.imc-unit {
+    font-size: 1rem;
+    color: var(--text-muted);
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.btn-primary-custom {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px -1px rgba(79, 70, 229, 0.2);
+}
+
+
+
+.btn-primary-custom:active {
+    transform: translateY(0);
+}
+
+.btn-outline-custom {
+    border: 1px solid #e2e8f0;
+    color: var(--text-muted);
+    background: transparent;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+
+.btn-primary-custom:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background: rgba(3, 3, 158, 0.897);
+}
+
+.btn-outline-custom:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background: #f3fbff;
+}
+
+.form-control-custom {
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+}
+
+/* Global Card Styles */
+.card-custom {
+    border-radius: 20px;
+    border: 1px solid #eef2f6;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    background: #fff;
+}
+
+/* IMC Display */
+.imc-display-box {
+    text-align: center;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 16px;
+}
+
+.imc-number {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #1e293b;
+}
+
+.imc-unit {
+    font-size: 1rem;
+    opacity: 0.5;
+    margin-left: 5px;
+}
+
+/* New Suggestion Card Styles (Stacked) */
+.suggestion-card-modern {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 24px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.suggestion-card-modern:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.08);
+    border-color: #cbd5e1;
+}
+
+.diet-segment {
+    padding: 24px;
+    background: #fff;
+}
+
+.activity-segment {
+    padding: 20px 24px 24px 24px;
+    background: #f8fafc;
+    border-top: 1px dashed #e2e8f0;
+    margin-top: auto;
+}
+
+.icon-circle {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.price-display {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #0f172a;
+}
+
+.badge-gold-promo {
+    font-size: 0.65rem;
+    font-weight: 700;
+    background: #fffbeb;
+    color: #b45309;
+    padding: 2px 8px;
+    border-radius: 6px;
+    border: 1px solid #fef3c7;
+}
+
+.segment-label {
+    font-size: 0.65rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #94a3b8;
+    display: block;
+    margin-bottom: 2px;
+}

@@ -1,0 +1,7 @@
+# (pas important a lire) quoi je devrais ignorer ? -- les fichiers de configuration de la base de données et les fichiers de session et de log qui contiennent des données sensibles ou spécifiques à l'environnement de développement et les trucs lourds qui ne sont pas nécessaires pour le contrôle de version.
+writable/debugbar/
+writable/session/
+writable/logs/
+writable/cache/
+writable/uploads/
+TODO.md
